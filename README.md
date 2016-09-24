@@ -2,3 +2,10 @@
 
 ## Purpose
 To provide a simple and reusable starting point for applications using Angular 2.
+
+## The code
+
+* `package.json` lists NPM packages
+* `tsconfig.json` specifies how the TypeScript compiler generates JavaScript
+* `typings.json` lists definition files for libraries the TypeScript compiler doesn't natively recognise
+* `systemjs.config.js` provides information to the SystemJS module loader (registering the necessary packages and where to find modules)
