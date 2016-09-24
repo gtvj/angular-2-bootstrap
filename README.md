@@ -3,6 +3,13 @@
 ## Purpose
 To provide a simple and reusable starting point for applications using Angular 2.
 
+## Running the code
+
+Having cloned the repository run `npm install` followed by `npm start`. This runs two parallel processes: 
+
+* The TypeScript compiler in watch mode
+* A static file `lite-server` that loads `index.html` in a browser with a connection to BrowserSync
+
 ## The code
 
 * `package.json` lists NPM packages
