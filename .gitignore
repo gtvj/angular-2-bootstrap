@@ -6,3 +6,8 @@
 # JetBrains
 .idea/
 
+# Node
+/node_modules/
+
+# Typings
+/typings/
