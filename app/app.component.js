@@ -15,7 +15,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: 'app/app.component.html'
+            templateUrl: 'app/app.component.html',
+            styles: ["\n        h1 {\n            font-weight: normal;\n            background-color: #EBAB00;\n        }\n        p {\n            font-weight: bold;\n            background-color: pink;\n        } "]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
