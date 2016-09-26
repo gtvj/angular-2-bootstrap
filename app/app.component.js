@@ -12,6 +12,9 @@ var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
     }
+    AppComponent.prototype.hasBeenClicked = function () {
+        console.log('I have been clicked!');
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',

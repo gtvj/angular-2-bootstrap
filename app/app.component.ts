@@ -15,4 +15,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+    hasBeenClicked() {
+        console.log('I have been clicked!');
+    }
 }
